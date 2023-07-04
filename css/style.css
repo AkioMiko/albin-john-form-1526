@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 809px;
+    font-family: 'Lato', sans-serif; 
+} */
+
+fieldset{
+    background-color: #F5F5F5;
+    border-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 3px;
+    margin: 30px;
+}
+
+legend{
+    background-color: white;
+    border: 3px solid #ddd;
+    padding: 15px;
+    border-radius: 0.3rem;
+}
+
+#fullname {
+    width: 100%;
+
+}
+.fullname {
+    margin-top: 0.3rem;
+}
+
+#email {
+    width: 100%;
+}
+.email {
+    margin-top: 1rem;
+}
+#message {
+    width: 100%;
+}
+.message{
+    margin-top: 1rem;
+}
+
+#submit {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #6495ED;
+    color: white;
+    border-style: none;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 25rem){
+
+    
+
+
+}
+@media only screen and (min-width: 25rem){
+    .fullname_email{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+    #fullname{
+        width: 280px ;
+        margin-right: 1rem;
+    }
+
+    #email{
+        width: 280px;
+    }
+
+    fieldset {
+        margin: 4rem;
+    }
+
+}
+
+@media only screen and (min-width: 40rem){
+
+    fieldset {
+        display: block;
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+
+    #fullname{
+        padding: 2px 5px;
+        width: 22rem;
+    }
+
+    #email{
+        padding: 2px 5px;
+        width: 22rem;
+    }
+
+}
+
